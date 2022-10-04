@@ -15,3 +15,4 @@ public:
     static const int ASCENDING_ORDER = 1;
     static const int DESCENDING_ORDER = 0;
 };
+
