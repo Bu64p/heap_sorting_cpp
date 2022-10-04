@@ -3,7 +3,10 @@ A better implementation of heap sorting in c++ with memory management.
 main.cpp is a test program.
 | Command | Description |
 | ---------- | --------- |
-| `heapSorting(int *array,int n,int order) : void` | sorting array of integer,array:array you want to sort, n:number of items, order:put ASCENDING_ORDER or DESCENDING_ORDER; also you can send array itself insted of pointer |
+| `heapSorting(int *array,int n,int order) : void` | sorting array of integer, array: array you want to sort, n: number of items, order: put ASCENDING_ORDER, DESCENDING_ORDER or leave it blank for ASCENDING_ORDER ; |
+
+>objectName.ASCENDING_ORDER or objectName.DESCENDING_ORDER  ;)
+
 ***also you can ignore CMakeLists.txt***
 
 [how does it work?](https://github.com/Bu64p/Heap_Sorting/blob/main/README.md#how-does-it-work)
