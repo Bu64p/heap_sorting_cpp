@@ -5,7 +5,7 @@ main.cpp is a test program.
 | ---------- | --------- |
 | `heapSorting(int *array,int n,int order) : void` | sorting array of integer, array: array you want to sort, n: number of items, order: put ASCENDING_ORDER, DESCENDING_ORDER or leave it blank for ASCENDING_ORDER ; |
 
->objectName.ASCENDING_ORDER or objectName.DESCENDING_ORDER  ;)
+>heapSorting::ASCENDING_ORDER or heapSorting::DESCENDING_ORDER  ;)
 
 ***also you can ignore CMakeLists.txt***
 
