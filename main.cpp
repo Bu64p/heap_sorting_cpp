@@ -15,11 +15,11 @@ int main()
     cin >> order;
     if (order == 1)
     {
-        heapSorting sort(arr, n, sort.ASCENDING_ORDER);
+        heapSorting sort(arr, n, heapSorting::ASCENDING_ORDER);
     }
     else if (order == 2)
     {
-        heapSorting sort(arr, n, sort.DESCENDING_ORDER);
+        heapSorting sort(arr, n, heapSorting::DESCENDING_ORDER);
     }
     else
     {
